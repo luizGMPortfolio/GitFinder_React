@@ -1,0 +1,108 @@
+.App{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.busca{
+  background-color: #3e61a1;
+  border-radius: 15px;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 180px;
+  width: 500px;
+}
+
+.sup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.inf{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.inf div{
+  display: flex;
+  gap: 2px;
+}
+
+.resposta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3e61a1;
+  border-radius: 15px;
+  padding: 20px 0;
+  width: 500px;
+}
+
+.search{
+  width: 80%;
+  display: grid;
+}
+
+.search img{
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.repositorio{
+  background-color: #3e61a1;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.Irepositorio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+  background-color: #0e1129;
+  border-radius: 10px;
+  padding: 10px 0;
+  border: 2px solid #a0a6da;
+  width: 310px;
+  min-height: 200px;
+}
+
+.titulo{
+  height: 20%;
+}
+.discrição{
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+.discrição p{
+  text-align: center;
+  margin: auto;
+
+}
+.linguagem{
+  height: 20%;
+  display: flex;
+}
